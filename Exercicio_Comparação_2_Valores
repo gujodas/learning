@@ -1,0 +1,15 @@
+#Exercicio em que o usuário coloca 2 números e retona qual é maior que qual
+
+valor_1 = input("Digite um primeiro valor inteiro: ")
+valor_2 = input("Digite um segundo valor inteiro: ")
+
+valor_1_int = int(valor_1)
+valor_2_int = int(valor_2)
+
+if(valor_1_int > valor_2_int):
+    print("O primeiro valor é maior que o segundo")
+else:
+    print("O segundo valor é maior que o primeiro")
+
+
+
