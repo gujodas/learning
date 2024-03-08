@@ -4,12 +4,14 @@ valor_1 = input("Digite um primeiro valor inteiro: ")
 valor_2 = input("Digite um segundo valor inteiro: ")
 
 valor_1_int = int(valor_1)
-valor_2_int = int(valor_2)
+valor_2_int = int(valor_2)2
 
 if(valor_1_int > valor_2_int):
-    print("O primeiro valor é maior que o segundo")
+    print(f"O primeiro valor {valor_1_int} é maior que o segundo valor {valor_2_int}")
 else:
-    print("O segundo valor é maior que o primeiro")
+    print("O segundo valor {valor_2_int} é maior que o primeiro{valor_1_int}")
+
+
 
 
 
