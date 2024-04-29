@@ -1,0 +1,26 @@
+lista_compras = []
+while True:
+    opcao = input("Selecione uma opção: [i]inserir, a[apagar], l[listar]") #Usuário digita o que deseja
+    if opcao == 'i':
+        inserir = input("Digite o produto que pretende inserir: ")
+        lista_compras.append(inserir)
+        continue
+    if opcao == 'a':
+        apagar = input("Qual índice da lista pretende apagar: ")
+        try:
+            apagar = int(apagar)
+            lista_compras.pop(apagar)
+            continue
+        except:
+            print("O índice digitado não existe não há correspondência")
+
+    if opcao == "l":
+        if lista_compras == []:
+            print("Não há nada para listar")
+        else:
+            print(lista_compras)
+            continue
+    
+    else:
+        print("O que foi digitado não corresponde a nenhuma das opções")
+
